@@ -41,6 +41,13 @@ Affordable, handwired split keyboard build (~€20) using a Pro Micro NRF52840 (
 ![Left keyboard - front](<images and media/pictures/left keeb front.jpg>)
 ![Left keyboard - back](<images and media/pictures/left keeb back.jpg>)
 
+### Sound Test (Video)
+- Watch: [Sound test video](https://imgur.com/a/sputnik-split-keyboard-sound-6rZV6Jm)
+- For best acoustics:
+  - Print the case in PETG with 100% infill
+  - Add felt between the plate and the case (avoid plastic-on-plastic contact)
+  - Add several layers of felt inside the case to eliminate echoes
+
 ---
 ### BOM and Pricing
 ![BOM and pricing](<images and media/BOM and price.png>)
@@ -62,16 +69,19 @@ Approximate total cost: ~€20 (as built). Totals from the table: €23.45 (item
 
 | Item | Link | Amount bought | Amount needed | Price (item) | Price (used) |
 |---|---|---:|---:|---:|---:|
-| Mechanical Cherry switches | [AliExpress][bom-switches] | 70 | 42 | €8.60 | €5.16 |
-| Pro Micro NRF52840 (Nice!nano V2 clone) | [AliExpress][bom-mcu] | 1 | 2 | €3.15 | €6.30 |
+| Mechanical Cherry switches (any MX-stem switch will do) | [AliExpress][bom-switches] | 70 | 42 | €8.60 | €5.16 |
+| Pro Micro NRF52840 (Nice!nano V2 clone) | [AliExpress][bom-mcu], [Amazon][bom-mcu-amazon] | 1 | 2 | €3.15 | €6.30 |
 | Diodes 1N4148 | [AliExpress][bom-diodes] | 50 | 42 | €1.14 | €0.96 |
 | M3, 6mm screw | [AliExpress][bom-screws] | 50 | 14 | €2.73 | €0.76 |
-| M3, 3mm length heat inserts | [AliExpress][bom-inserts] | 50 | 14 | €2.76 | €0.77 |
+| M3 heat inserts (OD 4.2 mm, length 3 mm) | [AliExpress][bom-inserts] | 50 | 14 | €2.76 | €0.77 |
 | Kapton tape | [AliExpress][bom-kapton] | 1 | 1 | €1.54 | €1.54 |
 | Repurposed vape battery | n/a | 2 | 2 | — | — |
 | Copper wire | [AliExpress][bom-wire] | 1 | 1 | €3.53 | €3.53 |
 
 Total price: €23.45 (items purchased), €19.02 (used for build)
+
+Notes:
+- You can also use the original Nice!nano V2; it is compatible with this build.
 
 [bom-switches]: https://www.aliexpress.com/item/1005007345651159.html?spm=a2g0o.productlist.main.3.1c0c5261aCURnr&algo_pvid=b00fd779-7665-47e9-ae03-470b540f6337&algo_exp_id=b00fd779-7665-47e9-ae03-470b540f6337-2&pdp_ext_f=%7B%22order%22%3A%226394%22%2C%22eval%22%3A%221%22%2C%22orig_sl_item_id%22%3A%221005007345651159%22%2C%22orig_item_id%22%3A%221005009261993092%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%215.95%212.98%21%21%2148.40%2124.20%21%40210384cc17589018536814612e5c26%2112000040355282124%21sea%21HR%216267174471%21X%211%210%21n_tag%3A-29919%3Bd%3Ae5d82de9%3Bm03_new_user%3A-29895&curPageLogUid=zCC6svikv5Hc&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007345651159%7C_p_origin_prod%3A1005009261993092
 [bom-mcu]: https://www.aliexpress.com/item/1005006995289476.html?spm=a2g0o.productlist.main.3.54714221NO3mPU&algo_pvid=018aecb1-eafc-46ed-bf24-799c5e0c8c98&algo_exp_id=018aecb1-eafc-46ed-bf24-799c5e0c8c98-6&pdp_ext_f=%7B%22order%22%3A%221766%22%2C%22eval%22%3A%221%22%2C%22orig_sl_item_id%22%3A%221005006995289476%22%2C%22orig_item_id%22%3A%221005006599766097%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%216.30%213.15%21%21%2151.30%2125.65%21%402103835c17589020591883661e413f%2112000038985691707%21sea%21HR%216267174471%21X%211%210%21n_tag%3A-29919%3Bd%3Ae5d82de9%3Bm03_new_user%3A-29895&curPageLogUid=VJ4Cad4XkmFS&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005006995289476%7C_p_origin_prod%3A1005006599766097
@@ -80,6 +90,7 @@ Total price: €23.45 (items purchased), €19.02 (used for build)
 [bom-inserts]: https://www.aliexpress.com/item/1005003582355741.html?spm=a2g0o.cart.0.0.29ce38daTZImhU&mp=1&pdp_npi=5%40dis%21EUR%21EUR%202.83%21EUR%202.76%21%21EUR%202.76%21%21%21%40211b81a317589021869796790e7203%2112000026370649726%21ct%21HR%216267174471%21%211%210
 [bom-kapton]: https://www.aliexpress.com/item/1005007518587827.html?spm=a2g0o.productlist.main.2.202f49e3GVOXp0&algo_pvid=b11967b5-32c6-4440-93a4-052201d52ac3&algo_exp_id=b11967b5-32c6-4440-93a4-052201d52ac3-4&pdp_ext_f=%7B%22order%22%3A%2216925%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21EUR%211.54%211.54%21%21%2112.49%2112.49%21%402103891017590609061623435ece05%2112000041103956429%21sea%21HR%216267174471%21X%211%210%21n_tag%3A-29919%3Bd%3Ae5d82de9%3Bm03_new_user%3A-29895&curPageLogUid=FLnTGx29WStB&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007518587827%7C_p_origin_prod%3A
 [bom-wire]: https://www.aliexpress.com/item/1005009078359338.html?spm=a2g0o.order_list.order_list_main.56.47741802kB9uqg
+[bom-mcu-amazon]: https://www.amazon.com/Development-Bluetooth-Management-Module%EF%BC%8CNano-Compatible/dp/B0F1KDBDHQ?th=1
 
 ## Firmware
 - Prebuilt UF2 files are provided for the reference wiring:
@@ -108,6 +119,14 @@ You have ready‑to‑print 3MF files and editable STEP files:
   - Case parts: [`case step files/`](<case step files/>)
   - Keycaps: [`keycaps step files/`](<keycaps step files/>)
 - Individual keycap 3MFs are available in [`keycaps 3mf/`](<keycaps 3mf/>)
+
+## Battery
+- You can use repurposed vape batteries, or any battery that fits the plate cavity.
+- Cavity dimensions (from plate to bottom case):
+  - Height: 13 mm
+  - Length: ~40 mm (up to ~48 mm if you install the MCU cover first, then add the battery)
+  - Width: ~12 mm
+- Any battery that fits within this space will work.
 
 ## Repository Layout
 - Firmware
