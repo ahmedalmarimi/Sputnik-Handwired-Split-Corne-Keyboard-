@@ -61,9 +61,15 @@ Full step‑by‑step instructions are included:
 Please read the build guide before starting. It includes wiring details, assembly sequence, and notes specific to this handwired design.
 
 ## Bill of Materials (BOM)
+
+**WARNING/UPDATE**: When creating BOM i made a mistake, the heat inserts and screws are **actually M2** and **not M3**
+
 This is a handwired build — soldering tools/consumables (iron, solder, flux) are intentionally NOT included. The table lists quantities, links, and estimated pricing. See the BOM image in Media and the build guide PDF for context.
 
 Approximate total cost: ~€20 (as built). Totals from the table: €23.45 (items purchased), €19.02 (used for build).
+
+### BOM and Pricing
+![BOM and pricing](<images and media/BOM and price.png>)
 
 ### BOM Table
 
