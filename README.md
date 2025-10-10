@@ -72,8 +72,8 @@ Approximate total cost: ~€20 (as built). Totals from the table: €23.45 (item
 | Mechanical Cherry switches (any MX-stem switch will do) | [AliExpress][bom-switches] | 70 | 42 | €8.60 | €5.16 |
 | Pro Micro NRF52840 (Nice!nano V2 clone) | [AliExpress][bom-mcu], [Amazon][bom-mcu-amazon] | 1 | 2 | €3.15 | €6.30 |
 | Diodes 1N4148 | [AliExpress][bom-diodes] | 50 | 42 | €1.14 | €0.96 |
-| M3, 6mm screw | [AliExpress][bom-screws] | 50 | 14 | €2.73 | €0.76 |
-| M3 heat inserts (OD 4.2 mm, length 3 mm) | [AliExpress][bom-inserts] | 50 | 14 | €2.76 | €0.77 |
+| M2, 6mm screw | [AliExpress][bom-screws] | 50 | 14 | €2.73 | €0.76 |
+| M2 heat inserts (OD 4.2 mm, length 3 mm) | [AliExpress][bom-inserts] | 50 | 14 | €2.76 | €0.77 |
 | Kapton tape | [AliExpress][bom-kapton] | 1 | 1 | €1.54 | €1.54 |
 | Repurposed vape battery / LiPo 3.7V pouch | n/a | 2 | 2 | — | — |
 | Copper wire | [AliExpress][bom-wire] | 1 | 1 | €3.53 | €3.53 |
